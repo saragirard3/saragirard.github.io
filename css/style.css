@@ -6,26 +6,33 @@
 }
 
 :root {
-  --color-primary: #31112C;
-  --color-secondary: #F2A07B;
-  --color-light: #fff5ec;
+  --color-primary: #316879;
+  --color-secondary: #918331;
+  /* --color-secondary: #856e2c; */
+  --color-light: #e9f5f2;
   --color-black: #000;
-  --color-grey-light: #6c7983;
-  --color-grey-med: #454e56;
-  --color-grey-dark: #2a2e35;
+  --color-grey-light: #a3a9ad;
+  text-shadow: 0 0 3px #000, 0 0 5px #000;
   --br-sm-02: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
   --transition: all .2s ease-in-out;
 }
 
-.light-mode {
+/* .light-mode {
   --color-primary: #96CEB4;
   --color-secondary: #DD4A48;
   --color-light: #FFEEAD;
   --color-black: #000;
   --color-grey-light: #6c7983;
-  --color-grey-med: #454e56;
-  --color-grey-dark: #f8f8f8;
+} */
+
+.light-mode {
+  --color-primary: #a3f8d1;
+  --color-secondary: #f7b2a4;
+  --color-light: #524242;
+  --color-black: #000;
+  --color-grey-light: #6c7983;
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
 }
 
 body {
@@ -176,14 +183,17 @@ section {
 }
 .header-content .right-header .h-shape {
   transition: var(--transition);
-  width: 65%;
+  /* width: 65%; */
+  width: 71%;
   height: 100%;
   background-color: var(--color-secondary);
   position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
-  clip-path: polygon(18% 10%, 74% 22%, 80% 75%, 8% 80%);
+  /* clip-path: polygon(18% 10%, 74% 22%, 80% 75%, 8% 80%); */
+  /* clip-path: inset(8% 0 8% 0 round 5% 20% 5% 10%); */
+  clip-path: polygon(21% 12%, 90% 7%, 84% 98%, 9% 83%);
 }
 .header-content .right-header .home-paragraph {
   display: flex;
