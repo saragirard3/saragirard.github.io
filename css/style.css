@@ -11,20 +11,12 @@
   /* --color-secondary: #856e2c; */
   --color-light: #e9f5f2;
   --color-black: #000;
-  --color-grey-light: #a3a9ad;
+  --color-grey-light: #d0d7db;
   text-shadow: 0 0 3px #000, 0 0 5px #000;
   --br-sm-02: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
   --transition: all .2s ease-in-out;
 }
-
-/* .light-mode {
-  --color-primary: #96CEB4;
-  --color-secondary: #DD4A48;
-  --color-light: #FFEEAD;
-  --color-black: #000;
-  --color-grey-light: #6c7983;
-} */
 
 .light-mode {
   --color-primary: #a3f8d1;
