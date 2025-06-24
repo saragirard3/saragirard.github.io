@@ -14,6 +14,7 @@
   --color-grey-light: #6c7983;
   --color-grey-med: #454e56;
   --color-grey-dark: #2a2e35;
+  --color-white: white;
   --br-sm-02: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
   --transition: all .2s ease-in-out;
@@ -141,7 +142,7 @@ section{
   }
   i{
     font-size: .75rem;
-    color: var(grey-light);
+    color: var(--color-grey-light);
     pointer-events: none;
   }
 }
@@ -192,7 +193,7 @@ section{
       display: flex;
       flex-direction: column;
       align-items: center;
-      position: center;
+      position: relative;
       padding-right: 18rem;
       color: var(--color-light);
     }
@@ -318,7 +319,6 @@ section{
   }
 }
 
-\\Portfolio
 .portfolio-text{
   padding: 2rem 0;
   text-align: center;
