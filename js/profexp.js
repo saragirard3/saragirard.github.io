@@ -6,7 +6,12 @@ let profexp_list = [
         company: "Fusion Technology LLC",
         tools: [
             "HTML/CSS",
-            "Bootstrap"
+            "Bootstrap",
+            "JavaScript",
+            "React",
+            "Spring",
+            "Java",
+            "Azure"
         ]
     },
     {
