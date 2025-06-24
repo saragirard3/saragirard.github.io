@@ -19,5 +19,5 @@ let cert_list = [
         year: "2018",
         cert: "Rising Star Award Recipient",
         org:"MN School Business Officials"
-    },
+    }
 ];
