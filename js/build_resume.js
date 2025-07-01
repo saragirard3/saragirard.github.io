@@ -5,6 +5,17 @@ window.onload = function() {
 
 }
 
+
+const fragment = document.createDocumentFragment();
+const li = fragment
+    .appendChild(document.createElement("section"))
+    .appendChild(document.createElement("ul"))
+    .appendChild(document.createElement("li"));
+li.textContent = "hello world";
+
+document.body.appendChild(fragment);
+
+
 ////////// FUNCTIONS //////////
 
 // Create the 'Technical Proficiencies' section
@@ -34,47 +45,41 @@ function create_certs_section() {
 
 }
 
+// Create the 'Professional Experience' section
 function create_profexp_section() {
-    let profexp_timeline = document.getElementsByClassName("timeline")[1];
+    let profexp_timeline = document.getElementById("prof_exp");
+    let profexp_parse = JSON.parse(JSON.stringify(profexp_list));
 
-    profexp_list.forEach((profexp_item) =>
+    profexp_parse.forEach((profexp_item) => {
         profexp_timeline.innerHTML +=
             `<div class="timeline-item"><div class="tl-icon"><i class="fa-solid fa-briefcase"></i></div>
-            <p class="tl-duration">${profexp_item.years}</p><h5>${profexp_item.role}<br><span>${profexp_item.company}</span></h5>
-            <div class="tl-tools">
-            <div class="tl-item">tool</div>
-            <div class="tl-item">HTML/CSS</div>
-            <div class="tl-item">Bootstrap</div>
-            <div class="tl-item">JavaScript</div>
-            <div class="tl-item">React</div>
-            <div class="tl-item">Spring</div>
-            <div class="tl-item">Java</div>
-            <div class="tl-item">Azure</div>
-            <div class="tl-item">.NET</div>
-            <div class="tl-item">MySQL</div>
-            <div class="tl-item">Security</div>
-            <div class="tl-item">Agile</div>
-            <div class="tl-item">Scrum</div>
-    </div>
-    <div class="job-desc">
-        <ul>
-            <li>Provide full stack development, maintenance, and system administration services
-                for organizations</li>
-            <li>Triage customer issues, prioritize, and fix root causes, paying attention to
-                severity and proper logging practices</li>
-            <li>Review and understand business system</li>
-            <li>Create requirements based on specific clients' needs</li>
-            <li>Build, schedule, and release new software and software improvements</li>
-        </ul>
-    </div>
-</div>`
+                <p class="tl-duration">${profexp_item.years}</p><h5>${profexp_item.role}<br><span>${profexp_item.company}</span></h5>
+            <div class="tl-tools">`;
 
-    )
+                profexp_item.tools.forEach(tool =>
+                    profexp_timeline.innerHTML += `<div class="tl-item">${tool}</div>`);
+
+        profexp_timeline.innerHTML +=
+            `</div>        
+            
+            <div class="job-desc">
+                <ul>
+                    <li>${profexp_item.description}</li>
+                </ul>
+            </div>
+        </div>`;
+    })
 
 }
 
+    function create_tools_section(tools) {
 
+        return (tools.forEach(tool =>
+            `<div class="tl-item">${tool}</div>`,
+            )
+        )
 
+}
 ////////// END FUNCTIONS //////////
 
 
