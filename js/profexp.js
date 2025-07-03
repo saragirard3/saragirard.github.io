@@ -20,13 +20,5 @@ let profexp_list = [
             "Create requirements based on specific clients' needs",
             "Build, schedule, and release new software and software improvements"
         ]
-    },
-    {
-        years: "2021 - 2022",
-        role: "Software Engineer",
-        company: "Fusion Technology LLC",
-        tools: [
-            "MEUP"
-        ]
     }
 ];

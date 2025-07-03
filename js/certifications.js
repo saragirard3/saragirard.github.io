@@ -21,3 +21,6 @@ let cert_list = [
         org:"MN School Business Officials"
     }
 ];
+
+// Build the 'Certification & Awards' section
+
