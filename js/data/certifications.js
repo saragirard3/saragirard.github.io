@@ -22,5 +22,3 @@ let cert_list = [
     }
 ];
 
-// Build the 'Certification & Awards' section
-

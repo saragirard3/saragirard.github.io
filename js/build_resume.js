@@ -4,6 +4,7 @@ function buildResume() {
     create_techprof_section();
     create_certs_section();
     create_profexp_section();
+    create_education_section();
 }
 
 
@@ -20,10 +21,10 @@ function create_techprof_section() {
 
 // Create the 'Certification & Awards' section
 function create_certs_section() {
-    let timeline = document.getElementsByClassName("timeline")[0];
+    let certs_timeline = document.getElementById("certs");
 
     cert_list.forEach((cert_item) =>
-        timeline.innerHTML +=
+        certs_timeline.innerHTML +=
             `<div class="timeline-item">
                 <div class="tl-icon">
                     <i class="fa-solid fa-certificate"></i>
@@ -90,6 +91,22 @@ function create_details(description) {
 
 function insert_details(detail) {
     return (`<li>${detail}</li>`);
+}
+
+// Create the 'Education' section
+function create_education_section() {
+    let edu_timeline = document.getElementById("education");
+
+    education_list.forEach((ed_item) =>
+        edu_timeline.innerHTML +=
+            `<div class="timeline-item">
+                <p class="tl-duration">${ed_item.year}</p>
+                <div class="tl-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <h5>${ed_item.cert}<br><span>${ed_item.org}</span></h5>
+            </div>`
+    )
 }
 
 ////////// END FUNCTIONS //////////

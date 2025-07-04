@@ -12,9 +12,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <script src="js/build_resume.js"></script>
-        <script src="js/techprof.js"></script>
-        <script src="js/certifications.js"></script>
-        <script src="js/profexp.js"></script>
+        <script src="js/data/techprof.js"></script>
+        <script src="js/data/certifications.js"></script>
+        <script src="js/data/profexp.js"></script>
+        <script src="js/data/education.js"></script>
 
 
     </head>
@@ -80,40 +81,9 @@
                 <section class="section sec1" id="resume">
                     <div class="main-title"><h2>Resume</h2></div>
                     <h4 class="resume-title">Technical Proficiencies</h4><div class="toolbox"></div>
-                    <h4 class="resume-title">Certifications & Rewards</h4><div class="timeline"></div>
+                    <h4 class="resume-title">Certifications & Rewards</h4><div id="certs" class="timeline"></div>
                     <h4 class="resume-title">Professional Experience</h4><div id="prof_exp" class="timeline"></div>
-
-                    <h4 class="resume-title">Education</h4>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <p class="tl-duration">2021</p>
-                            <div class="tl-icon">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                            </div>
-                            <h5>Java for Programmers<br><span>Codecademy</span></h5>
-                        </div>
-                        <div class="timeline-item">
-                            <p class="tl-duration">2021</p>
-                            <div class="tl-icon">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                            </div>
-                            <h5>JavaScript Algorithms and Data Structures<br><span>FreeCodeCamp</span></h5>
-                        </div>
-                        <div class="timeline-item">
-                            <p class="tl-duration">2021</p>
-                            <div class="tl-icon">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                            </div>
-                            <h5>Python for Everyone Specialization<br><span>University of Michigan</span></h5>
-                        </div>
-                        <div class="timeline-item">
-                            <p class="tl-duration">2015</p>
-                            <div class="tl-icon">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                            </div>
-                            <h5>Bachelor of Science, Accounting<br><span>Western Governors University</span></h5>
-                        </div>
-                    </div>
+                    <h4 class="resume-title">Education</h4><div id="education" class="timeline"></div>
 
                 </section>
                 <section class="section sec2" id="portfolio">
