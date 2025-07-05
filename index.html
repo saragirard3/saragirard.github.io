@@ -2,20 +2,22 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <title>Sara Girard</title>
 
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="./css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,800;0,900;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" referrerpolicy="no-referrer" rel="stylesheet" />
 
         <script src="js/build_resume.js"></script>
-        <script src="js/data/techprof.js"></script>
+        <script src="js/data/technical_toolbox.js"></script>
         <script src="js/data/certifications.js"></script>
-        <script src="js/data/profexp.js"></script>
+        <script src="js/data/professional_experience.js"></script>
         <script src="js/data/education.js"></script>
+        <script src="js/build_portfolio.js"></script>
+        <script src="js/data/portfolio.js"></script>
 
 
     </head>
@@ -46,27 +48,17 @@
                             <strong>Here's how I supercharge your success:</strong>
                         </p>
                         <br />
-
                         <p>
-                            <li>
-                                <ol> <strong>Process Optimization Expert:</strong> My eagle eye spots roadblocks in your workflows. I design and implement clever solutions that <strong>eliminate inefficiencies, boost productivity, and save you valuable time</strong>. Think of me as your secret weapon for a leaner, meaner operation.</ol>
-                            </li>
-                           <br />
-                            <ul>
-                                <li>
-                                    <ol> <strong>Financial Acumen Alchemist:</strong> Numbers are my playground. I transform complex data into <strong>actionable insights that drive strategic decision-making</strong>. No more financial black holes – I make your numbers sing, guiding you towards informed, profitable choices.
-                                    </ol>
-                                </li>
-<!--                            <br />-->
-                                <li>
-                                    <ol><strong>Tech-Savvy Architect:</strong> I'm not just a numbers whiz; I'm also a coding wizard. Proficient in multiple languages and tools, I <strong>build and maintain robust software applications</strong> that automate tasks, streamline operations, and <strong>free your team to focus on what matters most</strong>.
-                                    </ol>
-                                </li>
-                            </ul>
+                            <strong>Process Optimization Expert:</strong> My eagle eye spots roadblocks in your workflows. I design and implement clever solutions that <strong>eliminate inefficiencies, boost productivity, and save you valuable time</strong>. Think of me as your secret weapon for a leaner, meaner operation.
+                        </p>
+                        <p>
+                            <strong>Financial Acumen Alchemist:</strong> Numbers are my playground. I transform complex data into <strong>actionable insights that drive strategic decision-making</strong>. No more financial black holes – I make your numbers sing, guiding you towards informed, profitable choices.
+                        </p>
+                        <p><strong>Tech-Savvy Architect:</strong> I'm not just a numbers whiz; I'm also a coding wizard. Proficient in multiple languages and tools, I <strong>build and maintain robust software applications</strong> that automate tasks, streamline operations, and <strong>free your team to focus on what matters most</strong>.
                         </p>
                         <br />
                         <p>
-                            <strong>I'm not just an engineer, I'm a strategic partner</strong>. I'm passionate about using my unique skillset to make a real impact on your business. Let's <strong>unleash the power of process improvement, financial clarity, and tech innovation</strong> to build something truly great together.
+                            <strong>I'm not just an engineer, I'm a strategic partner</strong>. I'm passionate about using my unique skill set to make a real impact on your business. Let's <strong>unleash the power of process improvement, financial clarity, and tech innovation</strong> to build something truly great together.
                         </p>
                             <br />
                         <p>
@@ -80,133 +72,15 @@
             <div class="section-content">
                 <section class="section sec1" id="resume">
                     <div class="main-title"><h2>Resume</h2></div>
-                    <h4 class="resume-title">Technical Proficiencies</h4><div class="toolbox"></div>
-                    <h4 class="resume-title">Certifications & Rewards</h4><div id="certs" class="timeline"></div>
-                    <h4 class="resume-title">Professional Experience</h4><div id="prof_exp" class="timeline"></div>
-                    <h4 class="resume-title">Education</h4><div id="education" class="timeline"></div>
-
+                    <h4 class="resume-title">Technical Toolbox</h4><div id="tech_prof" class="toolbox"></div>
+                    <h4 class="resume-title">Certifications & Rewards</h4><div class="timeline" id="certs"></div>
+                    <h4 class="resume-title">Professional Experience</h4><div class="timeline" id="prof_exp"></div>
+                    <h4 class="resume-title">Education</h4><div class="timeline" id="education"></div>
                 </section>
+
                 <section class="section sec2" id="portfolio">
                     <div class="main-title"><h2>Portfolio</h2></div>
-                    <div class="portfolios">
-                        <!-- Portfolio Site -->
-                        <div class="portfolio-item">
-                            <div class="image">
-                                <img src="images/portfolio.png" alt="">
-                            </div>
-                            <div class="hover-item">
-                                <h3>Portfolio Site</h3>
-                                <div class="icons">
-                                    <a href="https://github.com/saragirard3/portfolio"  target="_blank" class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" target="_blank" class="icon">
-                                        <i class="fa-solid fa-earth-americas"></i>
-                                    </a>
-                                </div>
-                                <br />
-                                <p class="portfolio-text">
-                                    JavaScript, HTML, CSS
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Lost Cave Adventures -->
-                        <div class="portfolio-item">
-                            <div class="image">
-                                <img src="images/lostcave.png" alt="">
-                            </div>
-                            <div class="hover-item">
-                                <h3>Lost Cave Adventures</h3>
-                                <div class="icons">
-                                    <a href="https://github.com/saragirard3/portfolio-examples/tree/main/caveadventure"  target="_blank" class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="http://www.girardtechie.icu/js_caveadventures" target="_blank" class="icon">
-                                        <i class="fa-solid fa-earth-americas"></i>
-                                    </a>
-                                </div>
-                                <br />
-                                <p class="portfolio-text">
-                                    JavaScript, HTML, CSS
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Brewery Sample -->
-                        <div class="portfolio-item">
-                            <div class="image">
-                                <img src="images/brewery.png" alt="">
-                            </div>
-                            <div class="hover-item">
-                                <h3>Sample Brewery</h3>
-                                <div class="icons">
-                                    <a href="https://github.com/saragirard3/brewerysample"  target="_blank" class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="https://brewerysample.paditim.com/" target="_blank" class="icon">
-                                        <i class="fa-solid fa-earth-americas"></i>
-                                    </a>
-                                </div>
-                                <br />
-                                <p class="portfolio-text">
-                                    React, MUI
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Favorite Coding Tools -->
-                        <div class="portfolio-item">
-                            <div class="image">
-                                <img src="images/favcode.png" alt="">
-                            </div>
-                            <div class="hover-item">
-                                <h3>Favorite Coding Tools</h3>
-                                <div class="icons">
-                                    <a href="https://github.com/saragirard3/portfolio-examples/tree/main/favcode"  target="_blank" class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                                <br />
-                                <p class="portfolio-text">
-                                    PHP
-                                </p>
-                            </div>
-                        </div>
-                        <div class="portfolio-item">
-                            <div class="image">
-                                <img src="images/netflix.png" alt="">
-                            </div>
-                            <div class="hover-item">
-                                <h3>Netflix Analysis</h3>
-                                <div class="icons">
-                                    <a href="https://github.com/saragirard3/portfolio-examples/tree/main/netflix_analysis_example"  target="_blank" class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                                <br />
-                                <p class="portfolio-text">
-                                    Python
-                                </p>
-                            </div>
-                        </div>
-                        
-                        <!-- <div class="portfolio-item">
-                            <div class="image">
-                                <img src="images/azurespring.png" alt="">
-                            </div>
-                            <div class="hover-item">
-                                <h3>Azure Spring Website</h3>
-                                <div class="icons">
-                                    <a href="https://github.com/saragirard3/azurespringwebapp"  target="_blank" class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="https://girardtechiespringwebapp.azurewebsites.net/" target="_blank" class="icon">
-                                        <i class="fa-solid fa-earth-americas"></i>
-                                    </a>
-                                </div>
-                                <em>Currently In Progress</em>
-                            </div>
-                        </div> -->
-                        
-                    </div>
+                    <div id="portfolios" class="portfolios"></div>
                 </section>
             </div>
         </main>

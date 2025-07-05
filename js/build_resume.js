@@ -1,5 +1,3 @@
-window.onload = buildResume;
-
 function buildResume() {
     create_techprof_section();
     create_certs_section();
@@ -12,7 +10,7 @@ function buildResume() {
 
 // Create the 'Technical Proficiencies' section
 function create_techprof_section() {
-    let toolbox = document.getElementsByClassName("toolbox")[0];
+    let toolbox = document.getElementById("tech_prof");
 
     techprof_list.forEach((toolbox_item) =>
         toolbox.innerHTML += '<div class="toolbox-item"><h5>' + toolbox_item + '</h5></div>' );

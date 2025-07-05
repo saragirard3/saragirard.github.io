@@ -3,6 +3,10 @@ const allSectBtn = document.querySelectorAll('.controls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
 
+window.onload = () => {
+    buildResume();
+    buildPortfolio();
+}
 
 function PageTransitions(){
     //Button click active class

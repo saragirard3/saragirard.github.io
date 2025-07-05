@@ -1,6 +1,11 @@
 // List of education
 let education_list = [
     {
+        year: "2024",
+        cert: "Full Stack Software Developer Specialization",
+        org: "IBM"
+    },
+    {
         year: "2021",
         cert: "Java for Programmers",
         org: "Codecademy"
