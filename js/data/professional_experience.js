@@ -6,7 +6,10 @@ let profexp_list =
             role: "Owner, Software Engineer",
             company: "Paditim Tech LLC",
             tools: [
-
+                "Spring Boot",
+                "Java",
+                "JavaScript",
+                "NextJs"
             ],
             description: [
 
@@ -17,24 +20,27 @@ let profexp_list =
             role: "Senior Software Engineer",
             company: "Fusion Technology LLC",
             tools: [
-                "Spring Boot",
+                "Spring",
                 "Java",
                 "JavaScript",
                 "Python",
-                "AWS"
+                "AWS",
+                "PostgreSQL",
+                "Microservices",
+                "SAFe",
+                "Flyway"
             ],
             description: [
-                "Provide full stack development, maintenance, and system administration services for organizations",
-                "Triage customer issues, prioritize, and fix root causes, paying attention to severity and proper logging practices",
-                "Review and understand business system",
-                "Create requirements based on specific clients' needs",
-                "Build, schedule, and release new software and software improvements"
+                "<strong><em>Federal Bureau of Investigation (FBI)</em></strong>",
+                "Perform cloud migration from legacy monolith application to cloud microservice application for N-DEx, a nationwide tool with over 26,000 participating agencies nearing up to 1 billion records",
+                "Mentor other developers, research new approaches, and implement new technologies within the N-DEx product",
+                "Establish strong working relationships with government and partner-organization stakeholders to create a more efficient flow of value from conception to delivery"
             ]
         },
         {
             years: "2021 - 2022",
             role: "Software Engineer",
-            company: "Fusion Technology",
+            company: "Fusion Technology LLC",
             tools: [
                 "HTML/CSS",
                 "Bootstrap",
@@ -43,11 +49,19 @@ let profexp_list =
                 "Java",
                 "C#",
                 "Azure",
-                "MySQL"
+                "MySQL",
+                "Scrum"
             ],
             description : [
-
-            ]
+                "<strong><em>West Virginia Rational Drug Therapy Program (WV RDTP)</em></strong>",
+                "Lead software developer and point of contact for emergency events",
+                "Assisted, trained, and mentored junior developer staff",
+                "Conducted full-stack development, system administration, and maintenance, contributing to enhanced operational efficiency.",
+                "Triaged, prioritized, and resolved customer issues, focusing on addressing root causes and implementing effective logging practices.",
+                "Translated business requirements into technical specifications",
+                "Led the creation, scheduling, and release of new software and software improvements",
+                "Maintained software within the rules governing HIPAA compliance"
+    ]
         },
         {
             years: "2020 - 2021",
