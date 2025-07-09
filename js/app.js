@@ -46,6 +46,13 @@ function PageTransitions(){
         element.classList.toggle('light-mode');
     })
 
+    // Toggle prior experience
+    const collapsibleHeader = document.querySelector('.collapsible-header');
+    const collapsibleContent = document.querySelector('.collapsible-content');
+    collapsibleHeader.addEventListener('click', () =>{
+        collapsibleContent.style.display = collapsibleContent.style.display === 'none' ? 'block' : 'none';
+    });
+
 
 }
 

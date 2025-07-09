@@ -6,8 +6,8 @@
 }
 
 :root {
-  --color-primary: #800033;
-  --color-secondary: #333399;
+  --color-primary: #171717;
+  --color-secondary: #800033;
   /* --color-secondary: #856e2c; */
   --color-light: #e9f5f2;
   --color-black: #000;
@@ -220,6 +220,7 @@ section {
   text-align: center;
   padding: 3rem 0;
   position: relative;
+  color: var(--color-grey-light);
 }
 .resume-title::before {
   content: "";
@@ -228,7 +229,7 @@ section {
   top: 1rem;
   width: 40%;
   height: 1px;
-  background-color: var(--color-grey-dark);
+  background-color: var(--color-secondary);
   transform: translateX(-50%);
 }
 
@@ -456,6 +457,19 @@ section {
   .controls .control {
     margin: 2rem 1rem !important;
   }
+}
+
+.collapsible-header {
+  padding: 10px;
+  cursor: pointer; /* Indicate it's clickable */
+  text-align: center;
+  font-weight: bold;
+}
+
+.collapsible-content {
+  padding: 10px;
+  border: 1px solid var(--color-secondary);
+  display: none; /* Initially hidden */
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -34,7 +34,13 @@ let profexp_list =
                 "<strong><em>Federal Bureau of Investigation (FBI)</em></strong>",
                 "Perform cloud migration from legacy monolith application to cloud microservice application for N-DEx, a nationwide tool with over 26,000 participating agencies nearing up to 1 billion records",
                 "Mentor other developers, research new approaches, and implement new technologies within the N-DEx product",
-                "Establish strong working relationships with government and partner-organization stakeholders to create a more efficient flow of value from conception to delivery"
+                "Migrate over 1.5 million records and attachments from on-prem to cloud for staging in DynamoDB and S3, using Java, Python, and Amazon EMR with Apache Spark",
+                "Create cloud virtual machines and assist new team members setting up virtual environment using EC2 and S3",
+                "Migrate other data from various on-prem database tables to PostgreSQL using Flyway migrations",
+                "Maintain legacy code during the migration process, using OracleDB, Java, Dojo Toolkit, Spring with xml bean configurations, and XSLT format and data integrations",
+                "Reimplement a dead feature back into the legacy codebase to allow users to enter record data manually into the legacy system, worked with PO with getting code into production and the SME for the feature.",
+                "Lead developer working with a new application implementing a ‘one stop shop’ for investigators",
+                "Migrate main legacy codebase to NDEx2, upgrading code from Java 7 to Java 17, pulling api and rest data from microservices with json and objects, clean up code that features have been previously removed from production"
             ]
         },
         {
@@ -86,56 +92,6 @@ let profexp_list =
                 "Craft initiatives and solutions to deliver strategic objectives",
                 "Develop end-to-end project technical approach plans using client's data, systems, business and teams",
                 "Present business and systems options for business improvement to market consultancy services"
-            ]
-        },
-        {
-            years: "2018 - 2020",
-            role: "Director of Business Services",
-            company: "Lake Superior School District",
-            tools: [
-                "HTML/CSS",
-                "JavaScript",
-                "SQL",
-                "Databases",
-                "ERP",
-                "Office 365"
-            ],
-            description: [
-                "Review and refine organizational processes and technologies for redundancy, inefficiency, and waste",
-                "Implement strategies and technology to enhance stakeholder experience including introducing credit card program and electronic timesheet tracking and processing",
-                "Monitor relevant legal, regulatory, and ethical requirements and implement them into District policies and procedures",
-                "Create strategies to use technology to align with the local ways of working and industry best practices",
-                "Consult with District stakeholders to introduce new or improve existing technologies"
-            ]
-        },
-        {
-            years: "2016 - 2018",
-            role: "Account Specialist 2",
-            company: "South Washington County Schools",
-            tools: [
-                "Adobe",
-                "Javascript",
-                "WordPress",
-                "Databases",
-                "ERP",
-                "Office 365"
-            ],
-            description: [
-                "Spearhead an initiative to create live and accurate employee position controls for the District’s growing employment of over 3,000 employees",
-                "Administrate the implementation of Skyward ERP system district-wide",
-                "Advocate for improvements in District processes, technology and otherwise",
-                "Implement current software to increase productivity efficiency and accuracy"
-            ]
-        },
-        {
-            years: "2014 - 2018",
-            role: "Consultant",
-            company: "Serenity Consulting",
-            tools: [
-
-            ],
-            description: [
-
             ]
         }
 ];
