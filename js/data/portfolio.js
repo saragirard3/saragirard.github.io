@@ -24,26 +24,6 @@ let portfolio_list = [
         "tools": "JavaScript, HTML, CSS"
     },
     {
-        "example_name": "Lost Cave Adventures",
-        "image_file": [
-            {
-                "alt" : "",
-                "src": "images/lostcave.png",
-            }
-        ],
-        "links" : [
-            {
-                "type": github,
-                "link": "https://github.com/saragirard3/portfolio-examples/tree/main/caveadventure"
-            },
-            {
-                "type": website,
-                "link": "https://www.girardtechie.icu/js_caveadventures"
-            }
-        ],
-        "tools": "JavaScript, HTML, CSS"
-    },
-    {
         "example_name": "Sample Brewery",
         "image_file": [
             {
