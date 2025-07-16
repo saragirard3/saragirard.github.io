@@ -12,7 +12,10 @@ let profexp_list =
                 "NextJs"
             ],
             description: [
-
+                "Engineer for an all-encompassing business application software to include HR, Payroll, Finance, Capital projects, inventory, lease/loan tracking, and reporting",
+                "Conduct full-stack development and system administration.",
+                "Collaborate with clients to define business requirements and translate them into technical specifications.",
+                "Schedule and release new software and software improvements."
             ]
         },
         {
@@ -32,15 +35,14 @@ let profexp_list =
             ],
             description: [
                 "<strong><em>Federal Bureau of Investigation (FBI)</em></strong>",
-                "Perform cloud migration from legacy monolith application to cloud microservice application for N-DEx, a nationwide tool with over 26,000 participating agencies nearing up to 1 billion records",
-                "Mentor other developers, research new approaches, and implement new technologies within the N-DEx product",
-                "Migrate over 1.5 million records and attachments from on-prem to cloud for staging in DynamoDB and S3, using Java, Python, and Amazon EMR with Apache Spark",
-                "Create cloud virtual machines and assist new team members setting up virtual environment using EC2 and S3",
+                "Perform cloud migration from legacy monolith application to cloud microservice application for N-DEx, a nationwide tool with over 26,000 participating agencies",
+                "Mentor other developers, research new approaches, and implement new technologies",
+                "Migrate over 1.5 billion records and attachments from on-prem to cloud, using Java, Python, and Amazon EMR with Apache Spark",
+                "Create cloud virtual machines and assist new team members setting up virtual environment",
                 "Migrate other data from various on-prem database tables to PostgreSQL using Flyway migrations",
                 "Maintain legacy code during the migration process, using OracleDB, Java, Dojo Toolkit, Spring with xml bean configurations, and XSLT format and data integrations",
                 "Reimplement a dead feature back into the legacy codebase to allow users to enter record data manually into the legacy system, worked with PO with getting code into production and the SME for the feature.",
-                "Lead developer working with a new application implementing a ‘one stop shop’ for investigators",
-                "Migrate main legacy codebase to NDEx2, upgrading code from Java 7 to Java 17, pulling api and rest data from microservices with json and objects, clean up code that features have been previously removed from production"
+                "Plan and assist building a new application implementing a ‘one stop shop’ for investigators"
             ]
         },
         {
@@ -71,7 +73,7 @@ let profexp_list =
         },
         {
             years: "2020 - 2021",
-            role: "Lead Consultant, Government",
+            role: "Consultant & Developer, Government",
             company: "Girard Consulting",
             tools: [
                 "HTML/CSS",
