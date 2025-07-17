@@ -14,7 +14,7 @@ let portfolio_list = [
         "links" : [
             {
                 "type": github,
-                "link": "https://github.com/saragirard3/portfolio"
+                "link": "https://github.com/saragirard3/saragirard.github.io"
             },
             {
                 "type": website,
@@ -24,7 +24,7 @@ let portfolio_list = [
         "tools": "JavaScript, HTML, CSS"
     },
     {
-        "example_name": "Sample Brewery",
+        "example_name": "Girard Brewery",
         "image_file": [
             {
                 "alt" : "",
@@ -34,14 +34,14 @@ let portfolio_list = [
         "links" : [
             {
                 "type": github,
-                "link": "https://github.com/saragirard3/brewerysample"
+                "link": "https://github.com/saragirard3/girard-brewery"
             },
             {
                 "type": website,
                 "link": "https://brewerysample.paditim.com/"
             }
         ],
-        "tools": "React, MUI"
+        "tools": "Next.js, React, MUI"
     },
     {
         "example_name": "Favorite Coding Tools",
